@@ -24,7 +24,7 @@ def prever_vendas():
         print("É necessário ter pelo menos 2 vendas registadas.")
         return
 
-    dados["data_venda"] = pd.to_datetime(dados["data_venda"])
+    dados["data_venda"] = pd.to_datetime(dados["data_venda"], format='mixed', errors='coerce')
     dados["mes"] = dados["data_venda"].dt.month
 
     vendas_por_mes = dados.groupby("mes")["total_venda"].sum().reset_index()
