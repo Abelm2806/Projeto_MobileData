@@ -29,6 +29,6 @@ Sistema de Gestão Inteligente para Loja de Telemóveis desenvolvido em **Python
 
 1. **Clonar o repositório:**
    ```bash
-   git clone [https://github.com/Abelm2806/mobile-data-store.git](https://github.com/Abelm2806/mobile-data-store.git)
-   cd mobile-data-store
+   git clone [https://github.com/Abelm2806/Projeto_MobileData.git](https://github.com/Abelm2806/Projeto_MobileData.git)
+   cd Projeto_MobileData
    ```
